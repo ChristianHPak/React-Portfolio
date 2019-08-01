@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "name": "BandSpot",
+        "github": "https://github.com/claudiafalk0/BandSpot",
+        "deployment": "https://claudiafalk0.github.io/BandSpot/",
+        "information": "A website which would allow the user to search by artist and display the artists album, play a snippet of the songs in that album, and by using the users IP address find events for that artist in their area.",
+        "technologies": [
+            "Four Apis",
+            "Firebase Database",
+            "Bootstrap"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/GroupProject1.png?raw=true"
+    },
+    {
+        "id": 2,
+        "name": "Meme Gen",
+        "github": "https://github.com/Nelsonsprague/project2",
+        "deployment": "https://obscure-river-49613.herokuapp.com/",
+        "information": "Make a meme and vote for your favorite!",
+        "technologies": [
+            "Heroku",
+            "Lodash.js",
+            "Axios",
+            "Sequelize",
+            "Bootstrap"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/Screen%20Shot%202019-07-22%20at%2009.14.00.png?raw=true"
+    },
+    {
+        "id": 3,
+        "name": "BAmazon",
+        "github": "https://www.google.com",
+        "deployment": "https://reactjs.org/docs/add-react-to-a-website.html",
+        "information": "Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.",
+        "technologies": [
+            "MySql",
+            "Npm Packages",
+            "Node"
+        ],
+        "image": "https://github.com/ChristianHPak/bamazon/blob/master/images/Screen%20Shot%202019-07-02%20at%2009.29.06.png?raw=true"
+    },
+    {
+        "id": 4,
+        "name": "Web Scraper",
+        "github": "https://github.com/ChristianHPak/News-Scrape",
+        "deployment": "https://pacific-journey-14837.herokuapp.com/",
+        "information": "The site uses cheerio to scrame news and then store the data in mongoDb.",
+        "technologies": [
+            "Request",
+            "Cheerio",
+            "Mongoose",
+            "Express",
+            "Morgan",
+            "Express-Handlebars"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/NewYourTimesScraper.png?raw=true"
+    },
+    {
+        "id": 5,
+        "name": "Friend Finder",
+        "github": "https://github.com/ChristianHPak/FriendFinder",
+        "deployment": "https://find-a-friend-christianpak.herokuapp.com/",
+        "information": "A simple JavaScript game that allows you to guess the letter the computer chooses.",
+        "technologies": [
+            "Javascript",
+            "JQuery",
+            "Express",
+            "Node",
+            "Bootstrap"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/FindFriend.png?raw=true"
+    },
+    {
+        "id": 6,
+        "name": "Eat-Da-Burger",
+        "github": "https://github.com/ChristianHPak/Eat-Da-Burger",
+        "deployment": "https://classique-moliere-11167.herokuapp.com/",
+        "information": "A Node, Express, Handlebars, and MySQL burger app that lets users input the names of burgers they'd like to eat... and then devour them!",
+        "technologies": [
+            "MySql",
+            "Handlebars",
+            "Express"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/Eat-da-burger.png?raw=true"
+    },
+    {
+        "id": 7,
+        "name": "GifTastic",
+        "github": "https://github.com/ChristianHPak/GifTastic",
+        "deployment": "https://christianhpak.github.io/GifTastic/",
+        "information": "The use of the GIPHY API to make a dynamic web page that populates with gifs of your choice.",
+        "technologies": [
+            "Giphy Api",
+            "Ajax"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/GifTastic.png?raw=true"
+    },
+    {
+        "id": 8,
+        "name": "Crystal Collector",
+        "github": "https://github.com/ChristianHPak/Unit-4-Game",
+        "deployment": "https://christianhpak.github.io/Unit-4-Game/",
+        "information": "A fun and interactive game for web browsers.",
+        "technologies": [
+            "Bootstrap",
+            "Javascript",
+            "JQuery"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/CrystalCollector.png?raw=true"
+    },
+    {
+        "id": 9,
+        "name": "Trivia Game",
+        "github": "https://github.com/ChristianHPak/TrainScheduler",
+        "deployment": "https://christianhpak.github.io/TrainScheduler/",
+        "information": "A Trivia game using JavaScript for the logic and jQuery to manipulate HTML.",
+        "technologies": [
+            "Bootstrap",
+            "Javascript",
+            "JQuery"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/TriviaGame.png?raw=true"
+    },
+    {
+        "id": 10,
+        "name": "Psychic Game",
+        "github": "https://github.com/ChristianHPak/Psychic-Game",
+        "deployment": "https://christianhpak.github.io/Psychic-Game/",
+        "information": "https://reactjs.org/docs/add-react-to-a-website.html",
+        "technologies": [
+            "Bootstrap",
+            "Javascript",
+            "JQuery"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/PsychicGame.png?raw=true"
+    },
+    {
+        "id": 11,
+        "name": "Train Scheduler",
+        "github": "https://github.com/ChristianHPak/TrainScheduler",
+        "deployment": "https://christianhpak.github.io/TrainScheduler/",
+        "information": "A train schedule application that incorporates Firebase to host arrival and departure data",
+        "technologies": [
+            "Moment.js",
+            "Firebase Database",
+            "Bootstrap"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/TrainScheduler.png?raw=true"
+    },
+    {
+        "id": 12,
+        "name": "LiriBot",
+        "github": "https://github.com/ChristianHPak/LiriBot",
+        "deployment": "https://github.com/ChristianHPak/LiriBot",
+        "information": "LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface.",
+        "technologies": [
+            "Three Apis",
+            "Five Npm Packages",
+            "Javascript",
+            "Node.js"
+        ],
+        "image": "https://github.com/ChristianHPak/LiriBot/blob/master/images/Screen%20Shot%202019-06-25%20at%2010.02.59.png?raw=true"
+    },
+    {
+        "id": 13,
+        "name": "Hot Restaurant",
+        "github": "https://github.com/ChristianHPak/Hot-Restaurant",
+        "deployment": "https://hot-restaurant-christianpak.herokuapp.com",
+        "information": "This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+        "technologies": [
+            "Node",
+            "Express",
+            "Javascript"
+        ],
+        "image": "https://github.com/ChristianHPak/Portfolio/blob/master/assets/images/Hot.png?raw=true"
+    }
+]
