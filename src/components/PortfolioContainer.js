@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Index from "./pages/Index";
 import Portfolio from "./pages/Portfolio";
-import $ from "jquery"
 
 class PortfolioPage extends Component {
   state = {
@@ -22,17 +21,6 @@ class PortfolioPage extends Component {
         return <Index />
     }
   };
-
-  showInfo = () => {
-    // Porfolio Cards Sliding
-    $('.show-btn').on('click', function () {
-      $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
-    });
-
-    $('.card-reveal .close').on('click', function () {
-      $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
-    });
-  }
 
   render() {
     if (this.state.currentPage === "Index") {

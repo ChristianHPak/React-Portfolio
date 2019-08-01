@@ -1,14 +1,27 @@
 import React, { Component } from "react";
 import projects from "../../project.json"
-import Card from "../Card"
 import "./style.css"
+import $ from "jquery"
 
 class Portfolio extends Component {
     state = {
         projects
     }   
 
+    showInfo = event => {
+        event.preventDefault();
+        // Porfolio Cards Sliding
+        $('.show-btn').on('click', function () {
+          $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
+        });
+    
+        $('.card-reveal .close').on('click', function () {
+          $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
+        });
+      }
+
     render() {
+        console.log(projects)
     return (
         <>
             <div id="mySidenav" className="sidenav">
@@ -70,15 +83,49 @@ class Portfolio extends Component {
                 <div className="slot bottom-border row eighty">
                     <div className="project-lang row">
 
-                    {this.state.projects.map(project => (
+                    {/* {this.state.projects.map(project => (
                         <Card
-                        id= {project.name}
+                        id= {project.id}
+                        key={project.id}
                         name= {project.name}
                         github= {project.github}
                         deployment= {project.deployment}
                         information= {project.information}
                         image= {project.image}
                            />
+                         ))} */}
+                         
+                         {this.state.projects.map(project => (
+                             <div className="col-md-4">
+                             <div className="card">
+                                 <div className="card-image">
+                                     <img className="img-responsive" src={project.image} alt={project.name} />
+                                 </div>
+             
+                                 <div className="card-content">
+                                     <span className="card-title project-name">{project.name}</span>
+                                     <button type="button" className="btn btn-custom pull-right show-btn" data-rel={project.id}
+                                         aria-label="Left Align"  onClick={this.showInfo}>
+                                         <i className="fa fa-ellipsis-v"></i>
+                                     </button>
+                                 </div>
+             
+                                 <div className="card-action">
+                                     <a href={project.github} target="new_blank">Github</a>
+                                     <a href={project.deployment} target="new_blank">Deployment</a>
+                                 </div>
+             
+                                 <div className="card-reveal close" onClick={this.showInfo} data-rel={project.id}>
+                                     <span className="card-title">Information</span> <button type="button" className="close"
+                                         data-dismiss="modal" data-rel={project.id} aria-label="Close"><span
+                                             aria-hidden="true">×</span></button>
+                                     <p>{project.information}</p>
+                                     <ul className="list-group list-group-flush">
+                                         <li className="list-group-item" key={project.id}>{project.technology}</li>
+                                     </ul>
+                                 </div>
+                             </div>
+                         </div>
                          ))}
                             </div>
                          </div>
